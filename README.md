@@ -16,9 +16,9 @@ A Google account, that's all.
 ## Using the Notebook
 
 A step-by-step guide that tells you how to get the environment running:
-1. Open the [Jupyter notebook](julia_on_collab.ipynb).
-2. You can either download it or view it directly on Google Colab.
-3. Run the first cell to install Julia and IJulia.
+1. Open the Jupyter notebook julia_as_a_glue_language.ipynb in Google Colab by clicking https://colab.research.google.com/github/schlichtanders/handson-julia-as-a-glue-language/blob/master/julia_as_a_glue_language.ipynb
+2. Run the first cell to install Julia and IJulia.
+3. Change colab runtime to Julia via colab menu ``Runtime/ Change runtime type`` (if julia is already selected, switch to python and back)
 
 #### Note to the user
 
@@ -26,8 +26,10 @@ Since Google does not directly offer Julia-based computing you, have to take car
 
 - You need to **work from the same notebook** to get access to a Julia 1.3 kernel.
 - You might lose connection to the host and, after re-connecting, you might lose your Julia packages that were installed. To tackle this situation, re-run the first cell and proceed with the follow up instructions in the notebook.
-- If you want to create your own notebook, I suggest you use this as a base notebook to work from.
 
+#### Blank Notebook
+
+To start a blank julia notebook on Google Colab click https://colab.research.google.com/github/schlichtanders/handson-julia-as-a-glue-language/blob/master/julia_blank.ipynb
 
 ## License
 
